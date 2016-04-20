@@ -33,7 +33,7 @@ public final class Log {
         }
     }
 
-    public static void wi(Object obj) {
+    public static void w(Object obj) {
         synchronized (lock) {
             logable.w(obj);
         }
